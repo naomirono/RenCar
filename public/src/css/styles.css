@@ -231,6 +231,11 @@ background-repeat: no-repeat;
 
 
   @media only screen and (max-width: 480px){
+
+    body {
+        overflow: hidden;
+      }
+      
     .navbar{
        background-color: var(--nav-secondary-bg);
        height: 4rem;
