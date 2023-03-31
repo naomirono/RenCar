@@ -41,6 +41,17 @@ main h1{
     text-decoration: none;
 }
 
+.navbar_menu a:hover{
+    color:orangered;
+    border-bottom: 3px solid orangered;
+    width: 100%;
+  }
+
+  .navbar_menu .active {
+    color:orangered;
+    transition: 0.5s ease;
+  }
+
 .navbar_menu{
     display: flex;
 }
@@ -79,6 +90,9 @@ main h1{
     font-size: 1.7rem;
     font-weight: 600;
 
+}
+.navbar_logo span{
+    color: orangered;
 }
 
 .hamburger{
